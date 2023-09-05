@@ -50,7 +50,7 @@ Blocks only scope `let` and `const` declarations, but not `var` declarations.
 
 ```js example-good
 {
-  var x = 1;
+  var x
 }
 console.log(x); // 1
 ```
